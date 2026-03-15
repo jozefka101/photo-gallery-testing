@@ -1,0 +1,14 @@
+{
+  "name": "automation-assignment",
+  "version": "1.0.0",
+  "description": "Playwright automation project for university assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
